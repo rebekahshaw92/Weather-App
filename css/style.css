@@ -1,0 +1,138 @@
+#search {
+	padding-bottom: 20px;	
+}
+
+#submitButton {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+}
+
+#weatherApp {
+	padding-top: 10px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#weather, #weatherImage, #temperature {
+	text-align: center;
+}
+
+#feelsLike, #humidity {
+	width: 25%;
+	padding-top: 20px;
+	padding-left: 150px;
+	display: inline-block;
+}
+
+#windSpeed, #uv, #pressure, #visibility {
+	width: 25%;
+	display: inline-block;
+
+}
+
+#time {
+	width: 25%;
+	padding-top: 20px;
+	padding-left: 150px;
+	display: inline-block;
+}
+
+#sunrise, #sunset  {
+	width: 25%;
+	display: inline-block;
+
+}
+
+
+#date {
+	width: 20%;
+	padding-left: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+#image, #temp {
+	padding-left: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+#image {
+	padding-top: 10px;
+}
+
+#showTenDay {
+	text-align: center;
+} 
+
+#showWeather {
+	width: 100px;
+	padding-left: 37%;
+	display: inline-block;
+	text-align: center;
+}
+
+#showTenDayWeather {
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+#tenDayForecast {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 5120px) {
+
+
+#feelsLike, #humidity {
+	
+	padding-left: 300px;
+	
+}
+
+
+#time {
+	
+	padding-left: 300px;
+	
+}
+
+
+#date {
+	
+	padding-left: 100px;
+}
+
+#image, #temp {
+	padding-left: 5px;
+	
+}
+
+#image {
+	padding-top: 10px;
+}
+
+
+
+#showTenDayWeather {
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+#showWeather {
+	padding-left: 43%;
+}
+
+#tenDayForecast {
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+}
