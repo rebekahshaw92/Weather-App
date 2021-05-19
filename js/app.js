@@ -34,7 +34,7 @@ $('#showHourlyWeather').click(() => {
 
 	$('#hourlyForecast').toggle();
 
-  $.getJSON('http://api.wunderground.com/api/888ec46a5e0bc6eb/hourly/q/'+ search +".json",function(resp){
+  $.getJSON('http://api.wunderground.com/api/888ec46a5e0bc6eb/hourly/q/'+ search +".json", (resp) => {
     $.each(resp.hourly_forecast, function(){
         logTime(this); 
         logImage(this);
@@ -90,7 +90,7 @@ $('#showTenDay').click(() => {
 $.ajax({
   url: 'http://api.wunderground.com/api/888ec46a5e0bc6eb/forecast10day/q/ca/'+ search +'.json',
   dataType : "jsonp",
-  success : function(parsed_json) {
+  success : (parsed_json) => {
          for(const some in parsed_json.forecast.txt_forecast.forecastday){
           $("#tenDayForecast").append("<b>"+parsed_json.forecast.txt_forecast.forecastday[some].title+" </b><br>"+ parsed_json.forecast.txt_forecast.forecastday[some].fcttext_metric+"<br><br>");                              
  
